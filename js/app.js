@@ -10,3 +10,14 @@ function createGrid() {
 }
 
 createGrid();
+
+document.addEventListener('DOMContentLoader', () => {
+    const squares = document.querySelectorAll('.square'); 
+    const scoreDisplay = document.querySelector('span');
+    const startBtn = document.querySelector('.start');
+
+    const width = 10;
+    let currentIndex = 0; 
+    let goalIndex = 0; 
+    let snake = [2, 1, 0];
+});
