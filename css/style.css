@@ -1,0 +1,23 @@
+:root{
+    --grid-size: 400px;
+    --square-size: calc(var(--grid-size) / 10);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#grid{
+    height: var(--grid-size);
+    width: var(--grid-size);
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.square{
+    height: var(--square-size);
+    width: var(--square-size);
+    border: 1px solid grey ;
+}
